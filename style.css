@@ -21,7 +21,7 @@ div{
 	grid-area: aqua;
 	width: 500px;
 	height: 600px;
-	background-image: url(images/aqua.png);
+	background-image: url(aqua.png);
 
 }
 
@@ -34,21 +34,21 @@ div{
 	    grid-area: disney;
 		width: 500px;
 		height: 600px;
-		background-image: url(images/disney.png);
+		background-image: url(disney.png);
 }
 
 .item_new{
 	    grid-area: new;
 	    width: 425px;
 	   height: 400px;
-	    background-image: url(images/new.png)
+	    background-image: url(new.png)
 }
 
 .item_thai{
 	    grid-area: thai;
 	    width: 850px;
 	    height: 300px;
-	    background-image: url(images/thai.png)
+	    background-image: url(thai.png)
 }
 
 .item_quote2{
