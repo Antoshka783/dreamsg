@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+
+*{
+	    margin: 0px;
+		padding: 0px;
+}
+
+body{
+	    font-family: 'Marck Script', cursive;
+		font-size: 20pt;
+		color: #fba6b0;
+		text-shadow: 2px 3px 5px white;
+		background-color: #adeaeb;
+}
+
+div{
+	    border: 4px solid #fdf1e5;
+}
+
+.item_aqua{
+	grid-area: aqua;
+	width: 500px;
+	height: 600px;
+	background-image: url(images/aqua.png);
+
+}
+
+.item_quote1{
+	grid-area: quote1;
+	padding: 15px;
+}
+
+.item_disney{
+	    grid-area: disney;
+		width: 500px;
+		height: 600px;
+		background-image: url(images/disney.png);
+}
+
+.item_new{
+	    grid-area: new;
+	    width: 425px;
+	   height: 400px;
+	    background-image: url(images/new.png)
+}
+
+.item_thai{
+	    grid-area: thai;
+	    width: 850px;
+	    height: 300px;
+	    background-image: url(images/thai.png)
+}
+
+.item_quote2{
+	    grid-area: quote2;
+	    padding: 15px;
+}
+
+.header_item{
+	grid-area: header;
+	padding: 15px;
+	justify-items: center;
+}
+
+.footer_item{
+	grid-area: footer;
+}
+
+.container{
+	    display: grid;
+	    grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto 250px;
+	    grid-template-areas: "header header header" "aqua disney quote1" "new new thai" "quote2 quote2 thai";
+		grid-column-gap: 10px;
+		grid-row-gap: 15px
+		justify-items: center;
+		align-items: center;
+}
+	    
+
+
+
+
+
